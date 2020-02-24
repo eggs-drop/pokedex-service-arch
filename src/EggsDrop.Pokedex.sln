@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EggsDrop.Pokedex.Web", "EggsDrop.Pokedex.Web\EggsDrop.Pokedex.Web.csproj", "{ACCCAC22-0444-44C3-BCD6-45BBE6FB12E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7119FF3B-BC69-4DE8-AA40-E3861BE5DE3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EggsDrop.Pokedex.Web.Tests.Unit", "Tests\Unit\EggsDrop.Pokedex.Web.Tests.Unit\EggsDrop.Pokedex.Web.Tests.Unit.csproj", "{EF1CDAB1-D72E-4A0C-8E90-041BB5E5DE3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACCCAC22-0444-44C3-BCD6-45BBE6FB12E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCCAC22-0444-44C3-BCD6-45BBE6FB12E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCCAC22-0444-44C3-BCD6-45BBE6FB12E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCCAC22-0444-44C3-BCD6-45BBE6FB12E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1CDAB1-D72E-4A0C-8E90-041BB5E5DE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1CDAB1-D72E-4A0C-8E90-041BB5E5DE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1CDAB1-D72E-4A0C-8E90-041BB5E5DE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1CDAB1-D72E-4A0C-8E90-041BB5E5DE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF1CDAB1-D72E-4A0C-8E90-041BB5E5DE3B} = {7119FF3B-BC69-4DE8-AA40-E3861BE5DE3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CB231E2-6F56-429A-AA1D-E7574AB7E789}
+	EndGlobalSection
+EndGlobal
